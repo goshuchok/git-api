@@ -1,0 +1,36 @@
+.repo_info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  grid-column-gap: 4px;
+  grid-row-gap: 5px;
+  .info_card {
+    border: 1px solid rgb(137, 108, 108);
+    background-color: rgba(17, 24, 39, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    .repo_name {
+      h3 {
+        margin: 5px 0 0 3px;
+        span {
+          color: rgb(20, 184, 166);
+        }
+      }
+      a {
+        color: rgb(20, 184, 166);
+        float: left;
+        margin-left: 3px;
+        text-decoration: none;
+      }
+    }
+    .repo_retting {
+      display: flex;
+      font-size: 14px;
+      font-weight: 500;
+      p {
+        margin-right: 10px;
+      }
+    }
+  }
+}
